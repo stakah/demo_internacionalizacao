@@ -1,0 +1,9 @@
+# internacionalizacao
+# ignora os arquivos gerados nessa pasta
+# /lib/l10n/*
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+
