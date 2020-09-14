@@ -6,4 +6,4 @@
 *
 # Except this file
 !.gitignore
-
+!messages_all.dart
