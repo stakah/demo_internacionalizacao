@@ -6,16 +6,12 @@ import 'package:intl/intl.dart';
 
 import 'dart:async';
 
+import 'consts.dart';
 import 'i18n/about_localizations.dart';
 import 'i18n/home_localizations.dart';
 import 'i18n/login_localizations.dart';
 import 'i18n/logout_localizations.dart';
 import 'i18n/util_localizations.dart';
-
-const Iterable<Locale> kSupportedLocalizations = [
-  const Locale('en'), // English
-  const Locale.fromSubtags(languageCode: 'pt', countryCode: 'BR'), // brazilian portuguese
-];
 
 
 class AppLocalizations

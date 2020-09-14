@@ -1,4 +1,6 @@
+import 'package:demo_internacionalizacao/util/localizations.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 void main() {
   runApp(MyApp());
@@ -98,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              toBeginningOfSentenceCase(AppLocalizations.of(context).counterMessage(_counter)),
             ),
             Text(
               '$_counter',

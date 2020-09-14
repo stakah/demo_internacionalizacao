@@ -12,4 +12,5 @@ mixin HomeLocalizations {
   String get toThe => Intl.message('to the', name: 'toThe');
   String get welcome => Intl.message('welcome', name: 'welcome');
   String get seeMore => Intl.message('see more', name: 'seeMore');
+  String counterMessage(int count) => Intl.message('You have pushed the button ${count} times', args: [count], examples: const {'count':2}, name: 'counterMessage');
 }

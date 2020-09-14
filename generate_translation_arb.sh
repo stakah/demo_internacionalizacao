@@ -15,4 +15,4 @@ cp -f $MESSAGES_FILE $EN_FILE
 cp -f $PT_BR_FILE $PT_BR_FILE.bak
 
 # criar o arquivo intl_pt_BR.arb ou acrescenta as novas linhas do arquivo intl_messages.arb
-python update_intl.py --in $MESSAGES_FILE --out $PT_BR_FILE
+python3 update_intl.py --in $MESSAGES_FILE --out $PT_BR_FILE
